@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  startdate: 2019-03-28
+  venue: one
+
+two:
+  name: MyString
+  description: MyText
+  startdate: 2019-03-28
+  venue: two
