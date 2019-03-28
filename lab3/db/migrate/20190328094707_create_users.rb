@@ -5,7 +5,9 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :lastname
       t.string :email
       t.string :phone
-      t.stringadress :password
+      t.string :password
+      t.string :adress
+      t.references :ticket_order, foreign_key: true
 
       t.timestamps
     end
