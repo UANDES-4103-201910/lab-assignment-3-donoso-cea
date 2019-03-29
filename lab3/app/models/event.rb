@@ -1,5 +1,6 @@
 class Event < ApplicationRecord
   	belongs_to :venue
+	self.primary_key = 'event_id'
 
 	def self.most_tickets_sold
 		"el evento que vendio más fueee trrrrmmm"
