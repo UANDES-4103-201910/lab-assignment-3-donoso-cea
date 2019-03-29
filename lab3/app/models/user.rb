@@ -1,5 +1,6 @@
 class User < ApplicationRecord
       	has_many :ticket_order
+	self.primary_key = 'user_id'
 
 	def most_expensive_ticket_bought
 		@@maximo= 0
